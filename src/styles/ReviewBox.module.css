@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textInput {
+  margin: 10px;
+  font-size: 1rem;
+  padding: 10px;
+}
+.textBox {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 50%;
+  height: 70%;
+  padding: 20px;
+  overflow-y: scroll;
+}
+.searchBox {
+  margin: 10px;
+}
+.initBtn {
+  margin-right: 20px;
+}
+.emotionBox {
+  margin: 10px;
+  font-size: 1.3rem;
+}
+.addBox {
+  margin: 10px;
+}
+.addBtn {
+  margin-right: 20px;
+}
+.exitBtn {
+  margin-left: 20px;
+}
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 1rem;
+}
